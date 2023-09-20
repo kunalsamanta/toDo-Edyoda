@@ -29,7 +29,7 @@ function change(){
     inputText.value='';
 }
 
-listContainer.addEventListener(click,function(e){
+listContainer.addEventListener("click",function(e){
     if (e.target.tagName ==="LI"){
         e.target.parentElement.toggle("checked");
     }
